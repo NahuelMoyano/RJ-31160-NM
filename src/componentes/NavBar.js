@@ -1,8 +1,9 @@
 import React from 'react'
+import CardWidget from './CardWidget'
 
 const NavBar = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabindex="0" className="btn btn-ghost lg:hidden">
@@ -46,6 +47,7 @@ const NavBar = () => {
           </ul>
         </div>
         <div classNameName="navbar-end">
+          <CardWidget/>
           <a className="btn btn-primary">Comprar</a>
         </div>
     </div>
