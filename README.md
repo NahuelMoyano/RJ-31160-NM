@@ -13,14 +13,14 @@
     * Creacion de ItemListContainer.js
     * Incorporacion de ItemListContainer
 
-□ Desafío: Contador con botón
+☑ Desafío: Contador con botón
     * Correcciones aplicadas
     * Creacion de ItemCount.js
     * Incorporacion de dos contadores para corroborar funcionamiento
 
 □ Desafío: Catálogo con MAPS y Promises
-    *
-    *
+    * Creacion de ItemList.js, Item.js y carpeta "data" con archivo productos.js
+    * Renderizado de productos realizando la ruta y conexion por los archivos requeridos
 
 □ Desafío: Detalle de Producto
     *
