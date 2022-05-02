@@ -6,7 +6,8 @@ const productos = [
         "categoria": "Comedia",
         "distribuidora": "IVREA",
         "precio": 5500,
-        "img": "KSLIW.jpg"
+        "img": "KSLIW.jpg",
+        "stock": 7
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@ const productos = [
         "categoria": "Gore",
         "distribuidora": "IVREA",
         "precio": 6000,
-        "img": "SNK.jpg"
+        "img": "SNK.jpg",
+        "stock": 7
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@ const productos = [
         "categoria": "Shounen",
         "distribuidora": "Panini Manga",
         "precio": 4000,
-        "img": "NARUTO.jpg"
+        "img": "NARUTO.jpg",
+        "stock": 7
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@ const productos = [
         "categoria": "Shounen",
         "distribuidora": "Planeta Comic",
         "precio": 5000,
-        "img": "BNHA.jpg"
+        "img": "BNHA.jpg",
+        "stock": 7
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@ const productos = [
         "categoria": "Comedia",
         "distribuidora": "Enterbrain",
         "precio": 5700,
-        "img": "SDG.jpg"
+        "img": "SDG.jpg",
+        "stock": 7
     },
     {
         "id": 6,
@@ -51,7 +56,8 @@ const productos = [
         "categoria": "Gore",
         "distribuidora": "IVREA",
         "precio": 5300,
-        "img": "TG.jpg"
+        "img": "TG.jpg",
+        "stock": 7
     },
     {
         "id": 7,
@@ -60,7 +66,8 @@ const productos = [
         "categoria": "Gore",
         "distribuidora": "Arms Corporation",
         "precio": 4000,
-        "img": "EL.jpg"
+        "img": "EL.jpg",
+        "stock": 7
     },
     {
         "id": 8,
@@ -69,7 +76,8 @@ const productos = [
         "categoria": "Shounen",
         "distribuidora": "IVREA",
         "precio": 3000,
-        "img": "BC.jpg"
+        "img": "BC.jpg",
+        "stock": 7
     },
     {
         "id": 9,
@@ -78,7 +86,8 @@ const productos = [
         "categoria": "Comedia",
         "distribuidora": "Kadokawa",
         "precio": 4500,
-        "img": "hinamarsuri.jpg"
+        "img": "hinamarsuri.jpg",
+        "stock": 7
     }
 ]
 export default productos;
