@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 const Item=({productos})=>{
   return(
@@ -14,9 +15,9 @@ const Item=({productos})=>{
           <h2>${productos.precio}</h2>
         </span>
         <p className="leading-relaxed text-black">{productos.categoria}</p>
-        <button className="text-indigo-500 inline-flex items-center">
+        <Link to= {`/item/${productos.id}`}  className="text-indigo-500 inline-flex items-center">
           Ver más
-        </button>
+        </Link>
         <hr/>
       </div>
     </div>

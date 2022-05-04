@@ -22,14 +22,16 @@
     * Creacion de ItemList.js, Item.js y carpeta "data" con archivo productos.js
     * Renderizado de productos realizando la ruta y conexion por los archivos requeridos
 
-□ Desafío: Detalle de Producto
+☑ Desafío: Detalle de Producto
     * Incorporacion de algunos estilos
     * Creacion de ItemDetailContainer.js e ItemDetail.js
     * Cancelacion de lista de productos para renderizar unicamente el archivo creado 
 
 □ Primera Entrega del Proyecto Final
-    *
-    *
+    * Instalar y configurar react-router
+    * Actualizacion de Links de la NavBar
+    * Actualizacion de ItemListContainer para usar useParams
+    * Actualizacion de ItemDetailcontainer para usar useParams
 
 □ Desafío: Sincronizar counter
     *
