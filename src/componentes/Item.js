@@ -15,7 +15,7 @@ const Item=({productos})=>{
           <h2>${productos.precio}</h2>
         </span>
         <p className="leading-relaxed text-black">{productos.categoria}</p>
-        <Link to= {`/item/${productos.id}`}  className="text-indigo-500 inline-flex items-center">
+        <Link to= {`/manga/${productos.id}`}  className="text-indigo-500 inline-flex items-center">
           Ver más
         </Link>
         <hr/>

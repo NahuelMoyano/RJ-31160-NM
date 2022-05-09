@@ -1,7 +1,13 @@
-import React from "react";
+import React, {useState}  from "react";
 import ItemCount from './ItemCount';
 
 const ItemDetail=({producto})=>{
+  const [isInCart, setIsInCart] = useState(false)
+
+  function onAdd (count) {
+    console.log(`Agregaste al carrito ${count} items.`);
+    setIsInCart(true);
+  }
   return(
     <div>
       <div>
@@ -15,7 +21,11 @@ const ItemDetail=({producto})=>{
           <h2>${producto.precio}</h2>
         </span>
         <p className="leading-relaxed text-black">{producto.categoria}</p>
-        <ItemCount stock={producto.stock} initial={1}/>
+        { isInCart? 
+          <button>Ver en carrito</button>
+        : 
+          <ItemCount onAdd= {onAdd} stock={producto.stock} initial={1}/>
+        }
       </div>
     </div>
   );

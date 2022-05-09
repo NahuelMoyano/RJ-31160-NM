@@ -27,15 +27,15 @@
     * Creacion de ItemDetailContainer.js e ItemDetail.js
     * Cancelacion de lista de productos para renderizar unicamente el archivo creado 
 
-□ Primera Entrega del Proyecto Final
+☑ Primera Entrega del Proyecto Final
     * Instalar y configurar react-router
     * Actualizacion de Links de la NavBar
     * Actualizacion de ItemListContainer para usar useParams
     * Actualizacion de ItemDetailcontainer para usar useParams
 
 □ Desafío: Sincronizar counter
-    *
-    *
+    * Separacion de responsabilidad del count y detalle del item 
+    * Agregado de eventos
 
 □ Desafío: CartContext
     *

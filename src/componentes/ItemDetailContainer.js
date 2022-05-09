@@ -14,7 +14,7 @@ function getProducto(id){
   });
 }
 
-function ItemListContainer () {
+function ItemDetailContainer () {
   const [producto, setProducto] = useState([])
   const { itemid } = useParams ();
   useEffect( () =>{
@@ -30,4 +30,4 @@ function ItemListContainer () {
   )
 }
 
-export default ItemListContainer;
+export default ItemDetailContainer;
