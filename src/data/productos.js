@@ -6,7 +6,7 @@ const productos = [
         "categoria": "Comedia",
         "distribuidora": "IVREA",
         "precio": 5500,
-        "img": "KSLIW.jpg",
+        "img": "/assets/img/KSLIW.jpg",
         "stock": 7
     },
     {
@@ -16,7 +16,7 @@ const productos = [
         "categoria": "Gore",
         "distribuidora": "IVREA",
         "precio": 6000,
-        "img": "SNK.jpg",
+        "img": "/assets/img/SNK.jpg",
         "stock": 7
     },
     {
@@ -26,7 +26,7 @@ const productos = [
         "categoria": "Shounen",
         "distribuidora": "Panini Manga",
         "precio": 4000,
-        "img": "NARUTO.jpg",
+        "img": "/assets/img/NARUTO.jpg",
         "stock": 7
     },
     {
@@ -36,7 +36,7 @@ const productos = [
         "categoria": "Shounen",
         "distribuidora": "Planeta Comic",
         "precio": 5000,
-        "img": "BNHA.jpg",
+        "img": "/assets/img/BNHA.jpg",
         "stock": 7
     },
     {
@@ -46,7 +46,7 @@ const productos = [
         "categoria": "Comedia",
         "distribuidora": "Enterbrain",
         "precio": 5700,
-        "img": "SDG.jpg",
+        "img": "/assets/img/SDG.jpg",
         "stock": 7
     },
     {
@@ -56,7 +56,7 @@ const productos = [
         "categoria": "Gore",
         "distribuidora": "IVREA",
         "precio": 5300,
-        "img": "TG.jpg",
+        "img": "/assets/img/TG.jpg",
         "stock": 7
     },
     {
@@ -66,7 +66,7 @@ const productos = [
         "categoria": "Gore",
         "distribuidora": "Arms Corporation",
         "precio": 4000,
-        "img": "EL.jpg",
+        "img": "/assets/img/EL.jpg",
         "stock": 7
     },
     {
@@ -76,7 +76,7 @@ const productos = [
         "categoria": "Shounen",
         "distribuidora": "IVREA",
         "precio": 3000,
-        "img": "BC.jpg",
+        "img": "/assets/img/BC.jpg",
         "stock": 7
     },
     {
@@ -86,7 +86,7 @@ const productos = [
         "categoria": "Comedia",
         "distribuidora": "Kadokawa",
         "precio": 4500,
-        "img": "hinamarsuri.jpg",
+        "img": "/assets/img/hinamarsuri.jpg",
         "stock": 7
     }
 ]
