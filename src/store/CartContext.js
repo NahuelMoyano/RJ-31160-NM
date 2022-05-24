@@ -38,17 +38,27 @@ export function CartContextProvider ( {children} ) {
     }
 
     const clearCart = () => {
-        return 
+        setCart([])
     }
 
-
     const isInCart = (id) => {
-        return cart.some ( itemCart => itemCart.id === id);
+        return cart.some ( itemCart => itemCart.id === id)
+    }
+    function getTotalPrice () {
+        let totalPrice = 0
+        cart.forEach (item => { totalPrice += totalPrice + item.precio * item.cant})
+        return totalPrice
+    }
+
+    function getTotalCant () {
+        let totalCant = 0
+        cart.forEach (item => { totalCant += item.cant})
+        return totalCant
     }
 
     const contextFunction = () => console.log ("Contexto listo!")
     return(
-        <Provider value= { {contextFunction, cart, addToCart, removeFromCart, clearCart} } >
+        <Provider value= { {contextFunction, cart, addToCart, removeFromCart, clearCart,getTotalPrice,getTotalCant} } >
              {children}
         </Provider>
     )
