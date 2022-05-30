@@ -63,8 +63,9 @@ export async function createBuyOrder (orderData){
         date: buyTimestamp 
     };
 
+    console.log("compra hecha", orderWithDate)
     const miColec = collection (firestoreDB, "buyOrders");
     const orderDoc = await addDoc (miColec, orderWithDate);
 
-    console.log("Compra ID:", orderDoc.id);
+    alert("Gracias por tu compra! Tu codigo de seguimiento es: " + orderDoc.id);
 } 

@@ -8,7 +8,7 @@ function CartView() {
     const { cart, removeFromCart, clearCart, getTotalPrice } = useCartContext()
     function handleBuy () {
         const itemsToBuy = cart.map ((item) => ({
-            tittle: item.titulo,
+            tittle: item.nombre,
             cant: item.cant,
             price: item.precio,
             id: item.id
@@ -20,7 +20,7 @@ function CartView() {
                 email: "nahuel@gmail.com",
             },
             items: itemsToBuy,
-            total: getTotalPrice,
+            total: getTotalPrice(),
         }
 
         createBuyOrder(buyOrder)

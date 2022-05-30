@@ -37,22 +37,22 @@
     * Separacion de responsabilidad del count y detalle del item 
     * Agregado de eventos
 
-□ Desafío: CartContext
+☑ Desafío: CartContext
     * Agregado de imagenes y links
     * Implementar contexto y acciones en el Cart
 
-□ Desafío: Cart View
-    *
-    *
+☑ Desafío: Cart View
+    * Creacion de CartView
+    * Aplicacion de funciones apra el correcto funcionamiento
 
-□ Desafío: Item Collection
-    *
-    *
+☑ Desafío: Item Collection
+    * Subida de productos.js a Firebase
+    * Conexion de Firebase con el proyecto
 
-□ Desafío: Item Collection II
-    *
-    *
+☑ Desafío: Item Collection II
+    * Conexion mutua para creacion de ordenes de compra
+    * (CORRECCIONES) Agregado de alerta con la devolución del id generado por FB
 
 □ Entrega del Proyecto Final
-    *
-    *
+    * 
+    * 
